@@ -6,7 +6,7 @@ const $ = (sel) => {
 
 
 $('button').addEventListener('click', function () {
-  $('textarea').value = new RegExp($('input:first-child').value).test($('input:nth-of-type(2)').value);
+  $('textarea').value = new RegExp($('input:nth-of-type(1)').value).test($('input:nth-of-type(2)').value);
 });
 
 $('button').addEventListener('mousedown', function () {
