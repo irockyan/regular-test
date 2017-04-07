@@ -1,28 +1,43 @@
-body{
-    padding: 20px;
+body {
+  padding: 40px;
 }
 
-input,button,textarea{
-    display: block;
-    margin: 0 auto;
+input {
+  border-bottom: 1px solid var(--border-grey);
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  font-size: 16px;
 }
 
-input{
-    border-bottom: 1px solid #ddd;
-    width: 90%;
-    height: 30px;
-}
-
-button{
-    padding: 10px 20px;
-    background-color: #ddd;
+label{
+    display: inline-block;
     margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 13px;
+    color: #11ccaa;
+    transform: translateY(0);
+    transition: opacity 1s,transform 1s,font-size 1s;
 }
 
-textarea{
-    width: 90%;
-    height: 100px;
-    margin-top: 30px;
-    border: 1px solid #ddd;
+button {
+  display: block;
+  padding: 10px 20px;
+  background-color: var(--border-grey);
+  margin: 30px auto 0 auto;
+  transition: background-color 1s;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin: 30px 0;
+  border: 1px solid var(--border-grey);
+}
+
+.custome{
+    margin-top: 20px;
+}
+
+.button-height{
+    background-color: #bbb;
 }

@@ -6,4 +6,4 @@
 
 1. npm i
 1. npm start
-1. 打包
+1. 打包: npm run build

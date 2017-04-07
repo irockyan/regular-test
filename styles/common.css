@@ -1,0 +1,13 @@
+:root {
+  --border-grey: #ddd;
+}
+
+.c-disappear {
+  transform: translateY(20px);
+  opacity: 0;
+  font-size: 16px;
+}
+
+.c-appear {
+  opacity: 1;
+}
