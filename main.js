@@ -1,8 +1,8 @@
 const electron = require('electron')
-// Module to control application life.
+//控制生命周期的模块。
 const app = electron.app
-// Module to create native browser window.
-const BrowserWindow = electron.BrowserWindow
+//创建原生的模块。
+const BrowserWindow = electron.BrowserWindow;
 
 const path = require('path')
 const url = require('url')
@@ -13,7 +13,7 @@ let mainWindow
 
 function createWindow () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 800, height: 600})
+  mainWindow = new BrowserWindow({width: 800, height: 700})
 
   // and load the index.html of the app.
   mainWindow.loadURL(url.format({

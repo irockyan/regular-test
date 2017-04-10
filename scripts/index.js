@@ -32,3 +32,8 @@ $('#string').addEventListener('input', function () {
     $('label[for="string"]').classList.add('c-disappear');
   }
 })
+
+
+$('select').addEventListener('change',function(){
+  $('.text_reg').value = this.value;
+})
