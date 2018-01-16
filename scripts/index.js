@@ -5,6 +5,13 @@ const $ = (sel) => {
 }
 
 
+console.log(Object.prototype.toString.call(localStorage.getItem('regdata')));
+
+const init = localStorage.getItem('regdata').map((item) => {
+  console.log(item);
+})
+
+
 $('button').addEventListener('click', function () {
   $('textarea').value = new RegExp($('input:nth-of-type(1)').value).test($('input:nth-of-type(2)').value);
 });
